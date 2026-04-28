@@ -215,8 +215,9 @@ async def process_media(
     }
 
     try:
+        layer34_url = os.getenv("LAYER34_API_URL", "http://127.0.0.1:8000")
         httpx.post(
-            "http://127.0.0.1:8000/api/v1/layers/3-4/process",
+            f"{layer34_url}/api/v1/layers/3-4/process",
             json=layer34_payload,
             timeout=10.0,
         )

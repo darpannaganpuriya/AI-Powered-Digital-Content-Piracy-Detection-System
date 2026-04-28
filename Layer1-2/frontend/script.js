@@ -11,6 +11,7 @@
                         GET  /api/v1/layers/3-4/content/:id
 */
 
+// ⚠️ DEPLOYMENT: Replace these with your actual Render backend URLs
 const API_L12 = "http://127.0.0.1:8001";
 const API_L37 = "http://127.0.0.1:8000";
 
