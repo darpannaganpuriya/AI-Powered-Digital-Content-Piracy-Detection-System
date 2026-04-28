@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment files
+.env
+
+# Local IDE settings
+.vscode/
+
+# Runtime data and temp artifacts
+data/temp/
+*.sqlite3
+*.db
+
+# Test and tooling cache
+.pytest_cache/
+.mypy_cache/

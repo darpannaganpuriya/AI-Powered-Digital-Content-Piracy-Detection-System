@@ -1,0 +1,65 @@
+{
+  "content_id": "cid_7ec814c83214",
+  "fingerprint_hash": "29ae5228a073cbcbdb79aa3874963a6ceec1b2d5a07108ef42ad70611c1144db",
+  "algorithm": "imagehash (ahash+phash+dhash+whash) \u2192 SHA-256",
+  "frame_count_sampled": 8,
+  "per_frame_hashes": [
+    {
+      "ahash": "f000f8002800000000000000000000000000000000000000001e001f001f0000",
+      "phash": "b4944b4bb494f94b6b4bb4b44b4bb4b44b6bb4b414be4b4bb4b44b4ab4b5514a",
+      "dhash": "c0009000d0000000000000000000000000000000001000010050005200520000",
+      "whash": "fc00fc00f800f000000000000000000000ff00ff00ff00ff00ff00ff00ff00ff",
+      "frame_index": 0
+    },
+    {
+      "ahash": "00000000f8fffdfffffffbfff1fffbf9eff80f700f5003800308201800180300",
+      "phash": "9897f9d9653e46064eaf2c850d4ab4b6db2d9b908142a1cfb7b39350097c6f6a",
+      "dhash": "c1808219d3a6e386a5b48334a326972354d3bed4bab4da4adad2d2d25e915ec9",
+      "whash": "00000000f8fffdfffffffbfff9fffffbeff80f700f7003000348211801180100",
+      "frame_index": 74
+    },
+    {
+      "ahash": "00000000f8fffdfffdfff1fff1ffe3ffe63e042824681cc81e58141814081402",
+      "phash": "b1b5b84a63b2462d4e4e0c920d4db6f4db61918d83d0e1cbb5b7db510bf82567",
+      "dhash": "c1848209d186e386a59683b483268fa64cf068aa4adaf19ae4926492e4d2e4de",
+      "whash": "00000000f8fffdfffdfff3fff1ffe3ffe03e8628246a1cc81a581c181c083c02",
+      "frame_index": 148
+    },
+    {
+      "ahash": "00000000f8fffdfffdfff9fff1fff9ffe93f093009b20da701df019a01982180",
+      "phash": "b9d5f3285d32470f44ea2cd4484b94b4ab6993d08987ad6eb79151fa0f1447eb",
+      "dhash": "c1808249d186e386a59683b4832683665a68da62d3269b6e17160f1267b047a5",
+      "whash": "00000000f8fffdfffdfff3fff1fff9ffe13e093009b209a701ef019a00982080",
+      "frame_index": 222
+    },
+    {
+      "ahash": "00000000f8fffdfff9fff1fff1ff92ff82789330d3d063f043f843f802780260",
+      "phash": "9852f1d843274e76476d1c874d58b6348b2f93d087dcb0cfb7b6db730a98082d",
+      "dhash": "c1848259d1a6e386a59483b4a32626a626f22c74ae949e34969296d2d6d27488",
+      "whash": "00000000f8fffdfff9fff1fff1ff92ff00789350d3d043f043f843f802780260",
+      "frame_index": 297
+    },
+    {
+      "ahash": "00000000f8fffdfffdfff9fff1ff73ff023e59244dec09e00b0a021f001e0022",
+      "phash": "9185f9fb263647034e7c0cb65949b4348a79b388f3ce80d7b4b3c3595cfc2662",
+      "dhash": "c1808249d186a386a59483b4832687a6e670b34c914cb349d6529c129a52fb4e",
+      "whash": "00000000f8fffdfffbfffbfff1fff3ff023e59b44dac09a0032a021f001e0022",
+      "frame_index": 371
+    },
+    {
+      "ahash": "00000000f8fffdfff9fff1fff1ffdbff003e42003e308fb18fb88d388f308d20",
+      "phash": "97dfb901479e46274c601cde487ab4348bf983ddb100a7ca95b7db513ca8076e",
+      "dhash": "c1848209d1a6e386a59683b483263726b65094d4586779657973597239733965",
+      "whash": "00000000f8fffdfff9fff1fff1ffd3f7003e42108e308fb18f308d388f308d00",
+      "frame_index": 445
+    },
+    {
+      "ahash": "00000000f8fffdfff1fff9fff1ffcbff809ac882883d0f79387b381b381b3818",
+      "phash": "b197f94860b447274e1a00e55c1ab5b09225bbcfb9d0878fb6a6ebd34d2c26f4",
+      "dhash": "c180880991a6e386a5b48334a3269726199211b61af1525976d2e35272126292",
+      "whash": "00000000f8fffdfff1fff1fff1ffcbff009a8882823d0e38387b381b381b3808",
+      "frame_index": 519
+    }
+  ],
+  "generated_at": "2026-04-28T09:21:48.859063+00:00"
+}

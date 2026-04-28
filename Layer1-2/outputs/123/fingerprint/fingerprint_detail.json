@@ -1,0 +1,65 @@
+{
+  "content_id": "123",
+  "fingerprint_hash": "3386293f15609589e27a61c229520ac40c5ba988a1c3db0e30334ea5c7a25ff3",
+  "algorithm": "imagehash (ahash+phash+dhash+whash) \u2192 SHA-256",
+  "frame_count_sampled": 8,
+  "per_frame_hashes": [
+    {
+      "ahash": "070000c000c300c2a083fe036fa303831ac19a438247be163effb8fe00be04fe",
+      "phash": "a97348ac15186f620ee0c45f666cf4e30eaa2c598737e6cba056aec52c5a8ff9",
+      "dhash": "ec4ce98e6d86ed8e4f0ec0465c4e35433487349e54d65ca458a441a449ec59c0",
+      "whash": "070400c000c700c38183ff03ffe393e39ac39a438647be3fbfffbcfe80be04fe",
+      "frame_index": 0
+    },
+    {
+      "ahash": "3e00fc60e4e084e0846004400440c440046004606460c4e1cffb37ff65f7e1f7",
+      "phash": "db36672688dbe231644c859366eb05dd0fa2033286970e9905570efb0f3f1ff4",
+      "dhash": "f8a601c708c708c678c48998289008dc2ccec8cbcccb8d832d92cd96cd868b67",
+      "whash": "3e00fce0fce0c4e084e004c0c440e440864006607660e6f1ffff77ff77f7f9ff",
+      "frame_index": 285
+    },
+    {
+      "ahash": "0000c060fc60fc600c40044040407c627c606c217c337ef67efe04fe0c7c70fc",
+      "phash": "f3346be495fbea597ce59db12c9b07bbc861271c99b3c0a4f410c281752bf054",
+      "dhash": "229726c7c0c678c778d7d89ba8daa8ca8a4a88e3c8e6c9e4ada689a4f8c0c5a4",
+      "whash": "1000c063fc60fc600c400c487c4a7c627c607c237c377efe7ffe1cfe1c7ef0fe",
+      "frame_index": 570
+    },
+    {
+      "ahash": "f00f3c0e0f2101a7004118631c6708e701f6411e473e029c41fec1fe0d7c0c18",
+      "phash": "9d406a48d4bdf439652fb1b266adbc4638133a49b8d10e5dde434a9f5e23578c",
+      "dhash": "867ff05cbc67af66b2c7b2c7b2cfb2ce9f44923cbd6c8db987b086b09b5059d8",
+      "whash": "e00f3c0e0f2303e7014318671d6709e701f6415e473f47fe53fec1fe0dfc0e58",
+      "frame_index": 855
+    },
+    {
+      "ahash": "001f06ff0e400e410661004d0a4d02610441c400c477ccffdffeecfeecfeecf8",
+      "phash": "93330e71b30ebe98600cb4c73cec6c48cae56c1b6ce76ca7784848f74e394b9b",
+      "dhash": "dcff38e03c833c8b3caf368954997cab39cb1d9909cd389133921ba4198c19c3",
+      "whash": "000f06ff0e400e41062100690a7d02610c21c440c47fccffdffffcffec7ffcff",
+      "frame_index": 1140
+    },
+    {
+      "ahash": "1fc099fc801c8c008c108d208c108cc0edc4efc0048004c000fa0ffe0e1c0c04",
+      "phash": "d71a66ed9462d932cdab92d76e4ccd926a336632c9cd6c2f854c6ce1a4326638",
+      "dhash": "7e0473e05a7c39d838b43a6c3970399c599c190c0984c986cba2d9b4dcb4d96c",
+      "whash": "bfc09ffca07c9c089e108d209c70ccc4ffc4ffc4e58066d061fa7ffe6e1c2c04",
+      "frame_index": 1425
+    },
+    {
+      "ahash": "00047fff0000200422342064204062c673c632c630663ffe3ffe00fe7cc63800",
+      "phash": "91136e4cc6d49d50699b9332626c3d9b4edb61263f32608c3dce46d33fba704d",
+      "dhash": "d80cdea2f930c44cd664c5cdc4ccc7bcc72cc49ce5ccf6c2f4a2e594c09cd066",
+      "whash": "00047fff3ffc200462346064606463c673d672c630663ffe7ffe70fe7ec63800",
+      "frame_index": 1710
+    },
+    {
+      "ahash": "7fff0000000600660fe00fc0018201e28f6307e201e30fc20ffe00fe00c70000",
+      "phash": "89566e4cb0339011e4cc95b3cea99326db65b9cc94596673b5d2cc99ddb23364",
+      "dhash": "ee80c68e3e3663465fce1c041f065b061ec63f2663065d865d8665947e967f62",
+      "whash": "ffff77fe000600660fe20fc08fe60fe78f6387e301e70fe70fff00ff00c30000",
+      "frame_index": 1995
+    }
+  ],
+  "generated_at": "2026-04-27T15:49:08.578077+00:00"
+}

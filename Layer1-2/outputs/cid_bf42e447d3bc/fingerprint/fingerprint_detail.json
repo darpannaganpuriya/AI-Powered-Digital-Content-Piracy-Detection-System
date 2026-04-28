@@ -1,0 +1,65 @@
+{
+  "content_id": "cid_bf42e447d3bc",
+  "fingerprint_hash": "a658277905bafb753c162344b0bbfc70d4ecc93c42fc2b4dbb5cbf45e2919d95",
+  "algorithm": "imagehash (ahash+phash+dhash+whash) \u2192 SHA-256",
+  "frame_count_sampled": 8,
+  "per_frame_hashes": [
+    {
+      "ahash": "000000000000818101800000000000000000fffeffffffffffffffffffffffff",
+      "phash": "ccdf4cccdcacf7377712233091659cee0c8c9c89dd57e333332273245c518cc9",
+      "dhash": "6710333131332733672b605535268c27563456c42aca4011805802280c38083c",
+      "whash": "010081000000818101801000068000000b00ffffffffffffffffffffffffffff",
+      "frame_index": 0
+    },
+    {
+      "ahash": "000000000100038000002000368000000000520dffffffffffffffffffffffff",
+      "phash": "ccc54ccccdccb3a46333e33eb32034411c5e4cfeccc9c8c67324722de33bb3b2",
+      "dhash": "e210632c57194f34cc6cc34b6db35951b45294a926db589a0006008c00240013",
+      "whash": "0000110023000380410061003e9100000000f70fffffffffffffffffffffffff",
+      "frame_index": 90
+    },
+    {
+      "ahash": "00000000000000000000000000007a4fffffffffffffffffffffffffffffffff",
+      "phash": "fb533bdb16d98249b02332f37adc96de803682a3c687f74d60af508f1b889b18",
+      "dhash": "71e339e619681c464b3603aa3287b499ccdc0844d00988082004081088004c90",
+      "whash": "00000000000000000000000000000000ffffffffffffffffffffffffffffffff",
+      "frame_index": 180
+    },
+    {
+      "ahash": "0000000000000000000000008800ffffffffffffffffffffffffffffffffffff",
+      "phash": "df003e00069185dba5ef23ef63843090b1f199f7daf79e05ac21646b63ce7b1a",
+      "dhash": "391299a59c63a5d3a9938d435ac542cd8c9c0022900c88002082ec12cc019800",
+      "whash": "0000000000000000000000000000bb7ffffffffffffffffffffffffeffc0ffc0",
+      "frame_index": 271
+    },
+    {
+      "ahash": "0018000000000000000000000000dc20fffffffffffffffffff3ffe0ffe0fff0",
+      "phash": "da0024205a53a5ffd7fe6b6d3402c9e1b5f25f68a816a51a6bf4377291259a87",
+      "dhash": "1cf18ae38cb28e2196c990d5996129622332951b18064e386fc77f43ff45dfa3",
+      "whash": "0018001000004100000040000000fd38fffffffffffffffffff3ffe0ffe0fff0",
+      "frame_index": 361
+    },
+    {
+      "ahash": "7007380c100000000000000010000000efffffffffffffffffffffffffffffff",
+      "phash": "a1fc61f8e17bfc0fe00760712079ba1cfa1708526ae87e2c7e13b4d191f0f335",
+      "dhash": "e43e633c2238630d65926160655dd2109adb2b4f836d2fc91bb8eef4aff899e5",
+      "whash": "30021004000000000000000000000000ef4dffffffffffffffffffffffffffff",
+      "frame_index": 451
+    },
+    {
+      "ahash": "0c000c03240300000410000004000400fbd7fffbffffffffffffffffffffffff",
+      "phash": "8f1c0f1ce229e2c16ff20fa8968cd2c611a313ae58ccf1eba1fb865cc65f4b13",
+      "dhash": "3807980fc8cec88b98e0196c190e38b6769442724a52119d047264986130891a",
+      "whash": "0c000403040200000000000004000400fac4ff7bffffffffffffffffffffffff",
+      "frame_index": 542
+    },
+    {
+      "ahash": "00e000c000c000000000000000000040fba8ffdfffdfffffffffffffffffffff",
+      "phash": "99335b33db20cfc45bc53361b392a4cd266d2632e4fac4692874a9b69b8f510f",
+      "dhash": "318999804d86cc98c98e619641950388f76a73366397b56820842a0092015a00",
+      "whash": "00e000c000c000000000000000000000bbb8ffdfffffffffffffffffffffffff",
+      "frame_index": 632
+    }
+  ],
+  "generated_at": "2026-04-28T10:19:25.828457+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "watermark_id": "4a433493af3c4766",
+  "content_id": "test_001",
+  "owner_id": "test_owner",
+  "user_id": "",
+  "payload_hash": "4a433493af3c4766ab539db309c4c6068a23f217e26c04e748a94ae7ef5cf520",
+  "bit_count": 216,
+  "strength": 0.05,
+  "wavelet": "haar",
+  "embedded_at": "2026-04-27T15:40:51.635034+00:00"
+}

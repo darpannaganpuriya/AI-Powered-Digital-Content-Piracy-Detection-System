@@ -1,0 +1,45 @@
+{
+  "pipeline_run": {
+    "timestamp": "2026-04-28T07:47:03.072835+00:00",
+    "content_id": "cid_4571b0105c8d",
+    "status": "COMPLETE"
+  },
+  "content_protection": {
+    "content_id": "cid_4571b0105c8d",
+    "fingerprint_hash": "1a0632a78ce1630d9dfca355fa8f93742b65f25c57d7229c523d3c2443d1be66",
+    "watermark_id": "CPS:cid_4571b0105c8d:owner_default",
+    "drm_applied": true
+  },
+  "ownership": {
+    "blockchain_tx_hash": "0x61c9bf851041984d3ec76aa673aedce43a16bb7a7af6fc2341a8c99c5295ad00",
+    "blockchain_network": "polygon_mumbai",
+    "ownership_verified": true,
+    "feature_vector_dimensions": 16
+  },
+  "detection_summary": {
+    "total_scanned": 2,
+    "piracy": 0,
+    "suspicious": 0,
+    "safe": 2
+  },
+  "detections": [
+    {
+      "url": "https://youtube.com/watch?v=MOCK_1",
+      "similarity": 0.25,
+      "verdict": "SAFE",
+      "risk": "LOW",
+      "action": "IGNORE",
+      "watermark_id": "CPS:cid_4571b0105c8d:owner_default",
+      "ownership_verified": true
+    },
+    {
+      "url": "https://youtube.com/watch?v=MOCK_2",
+      "similarity": 0.25,
+      "verdict": "SAFE",
+      "risk": "LOW",
+      "action": "IGNORE",
+      "watermark_id": "CPS:cid_4571b0105c8d:owner_default",
+      "ownership_verified": true
+    }
+  ]
+}

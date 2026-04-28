@@ -1,0 +1,21 @@
+{
+  "content_id": "test_001",
+  "encrypted_media_path": "D:\\AI_Solution\\outputs\\test_001\\drm",
+  "drm_license_info": {
+    "license_server_url": "http://localhost:8000/drm/keys/test_001",
+    "key_id": "56a9a018934b66ec01ee1673b6bb1f45",
+    "encryption_scheme": "AES-128-CBC",
+    "key_delivery": "clear-key (simulated)",
+    "note": "In production, replace this with a Widevine/FairPlay/PlayReady license server endpoint. The AES key would be delivered via a secure key-exchange protocol, not stored on disk."
+  },
+  "watermark_id": "4a433493af3c4766",
+  "watermarked_media_path": "D:\\AI_Solution\\outputs\\test_001\\watermarked\\watermarked_test_sample.mp4",
+  "fingerprint_hash": "d350967d984f608226f9ac364c844148fa9cbb04ffec8ee55f959f015eb1cae7",
+  "metadata": {
+    "owner_id": "test_owner",
+    "user_id": "",
+    "device_info": "",
+    "timestamp": "2026-04-27T15:40:50.545498+00:00",
+    "processing_logs": "[PIPELINE] content_id=test_001\n[PIPELINE] owner_id=test_owner\n[PIPELINE] upload_timestamp=2026-04-27T15:40:50.545498+00:00\n[PIPELINE] File saved: D:\\AI_Solution\\uploads\\test_001\\test_sample.mp4\n[DRM] Started at 2026-04-27T15:40:50.545498+00:00\n[DRM] Output folder: D:\\AI_Solution\\outputs\\test_001\\drm\n[DRM] Generated AES-128 key  (key_id=56a9a018\u2026)\n[DRM] FFmpeg command: ffmpeg -y -i D:\\AI_Solution\\uploads\\test_001\\test_sample.mp4 -c copy -hls_time 4 -hls_list_size 0 -hls_key_info_file D:\\AI_Solution\\outputs\\test_001\\drm\\encryption.keyinfo -hls_segment_filename D:\\AI_Solution\\outputs\\test_001\\drm\\segment_%03d.ts D:\\AI_Solution\\outputs\\test_001\\drm\\manifest.m3u8\n[DRM] FFmpeg completed successfully\n[DRM] FFmpeg stderr (tail): \u2026dler_name    : SoundHandler\nPress [q] to stop, [?] for help\n[hls @ 0000029c7435c380] Opening 'crypto:D:\\AI_Solution\\outputs\\test_001\\drm\\segment_000.ts' for writing\n[hls @ 0000029c7435c380] Opening 'D:\\AI_Solution\\outputs\\test_001\\drm\\manifest.m3u8.tmp' for writing\n[out#0/hls @ 0000029c743ded00] video:15KiB audio:26KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=   72 fps=0.0 q=-1.0 Lsize=N/A time=00:00:02.91 bitrate=N/A speed= 493x elapsed=0:00:00.00    \n\n[DRM] Finished at 2026-04-27T15:40:50.593390+00:00\n[PIPELINE] \u2705 DRM encryption complete\n[WM] Started at 2026-04-27T15:40:50.593390+00:00\n[WM] Payload length: 23 chars \u2192 216 bits\n[WM] Video: 320x240 @ 24.0fps, 72 frames\n[WM] Watermarked 72 / 72 frames\n[WM] Audio re-muxed successfully\n[WM] Sidecar written to D:\\AI_Solution\\outputs\\test_001\\watermarked\\watermark_sidecar.json\n[WM] Finished at 2026-04-27T15:40:51.637850+00:00\n[PIPELINE] \u2705 Watermark embedding complete\n[FP-Video] Started at 2026-04-27T15:40:51.637850+00:00\n[FP-Video] Total frames: 72, sampling 8 frames\n[FP-Video] Composite fingerprint: d350967d984f6082\u2026\n[FP-Video] Detail written to D:\\AI_Solution\\outputs\\test_001\\fingerprint\\fingerprint_detail.json\n[FP-Video] Finished at 2026-04-27T15:40:51.799641+00:00\n[PIPELINE] \u2705 Fingerprint generation complete"
+  }
+}

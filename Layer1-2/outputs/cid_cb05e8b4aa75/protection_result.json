@@ -1,0 +1,21 @@
+{
+  "content_id": "cid_cb05e8b4aa75",
+  "encrypted_media_path": "D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\drm",
+  "drm_license_info": {
+    "license_server_url": "http://localhost:8000/drm/keys/cid_cb05e8b4aa75",
+    "key_id": "68b2549b8a2f124481aa3f0563dbfdf2",
+    "encryption_scheme": "AES-128-CBC",
+    "key_delivery": "clear-key (simulated)",
+    "note": "In production, replace this with a Widevine/FairPlay/PlayReady license server endpoint. The AES key would be delivered via a secure key-exchange protocol, not stored on disk."
+  },
+  "watermark_id": "d73bb0017c72c132",
+  "watermarked_media_path": "D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\watermarked\\watermarked_CAD Solution Explaination.mp4",
+  "fingerprint_hash": "3386293f15609589e27a61c229520ac40c5ba988a1c3db0e30334ea5c7a25ff3",
+  "metadata": {
+    "owner_id": "owner_default",
+    "user_id": "",
+    "device_info": "",
+    "timestamp": "2026-04-27T16:33:15.257571+00:00",
+    "processing_logs": "[PIPELINE] content_id=cid_cb05e8b4aa75\n[PIPELINE] owner_id=owner_default\n[PIPELINE] upload_timestamp=2026-04-27T16:33:15.257571+00:00\n[PIPELINE] File saved: D:\\AI_Solution\\uploads\\cid_cb05e8b4aa75\\CAD Solution Explaination.mp4\n[DRM] Started at 2026-04-27T16:33:15.360546+00:00\n[DRM] Output folder: D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\drm\n[DRM] Generated AES-128 key  (key_id=68b2549b\u2026)\n[DRM] FFmpeg command: ffmpeg -y -i D:\\AI_Solution\\uploads\\cid_cb05e8b4aa75\\CAD Solution Explaination.mp4 -c copy -hls_time 4 -hls_list_size 0 -hls_key_info_file D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\drm\\encryption.keyinfo -hls_segment_filename D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\drm\\segment_%03d.ts D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\drm\\manifest.m3u8\n[DRM] FFmpeg completed successfully\n[DRM] FFmpeg stderr (tail): \u2026=N/A speed= 142x elapsed=0:00:00.51    \n[hls @ 00000271941a4040] Opening 'crypto:D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\drm\\segment_018.ts' for writing\n[hls @ 00000271941a4040] Opening 'D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\drm\\manifest.m3u8.tmp' for writing\n[out#0/hls @ 0000027193a629c0] video:6677KiB audio:2948KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe= 2280 fps=0.0 q=-1.0 Lsize=N/A time=00:01:16.00 bitrate=N/A speed= 142x elapsed=0:00:00.53    \n\n[DRM] Finished at 2026-04-27T16:33:16.872424+00:00\n[PIPELINE] \u2705 DRM encryption complete\n[WM] Started at 2026-04-27T16:33:16.874575+00:00\n[WM] Payload length: 34 chars \u2192 304 bits\n[WM] Video: 1280x720 @ 30.0fps, 2280 frames\n[WM] Watermarked 2280 / 2280 frames\n[WM] Audio re-muxed successfully\n[WM] Sidecar written to D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\watermarked\\watermark_sidecar.json\n[WM] Finished at 2026-04-27T16:38:10.709514+00:00\n[PIPELINE] \u2705 Watermark embedding complete\n[FP-Video] Started at 2026-04-27T16:38:10.711397+00:00\n[FP-Video] Total frames: 2280, sampling 8 frames\n[FP-Video] Composite fingerprint: 3386293f15609589\u2026\n[FP-Video] Detail written to D:\\AI_Solution\\outputs\\cid_cb05e8b4aa75\\fingerprint\\fingerprint_detail.json\n[FP-Video] Finished at 2026-04-27T16:38:11.676365+00:00\n[PIPELINE] \u2705 Fingerprint generation complete"
+  }
+}

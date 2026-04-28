@@ -1,0 +1,21 @@
+{
+  "content_id": "cid_2cbb61bb7c63",
+  "encrypted_media_path": "D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\drm",
+  "drm_license_info": {
+    "license_server_url": "http://localhost:8000/drm/keys/cid_2cbb61bb7c63",
+    "key_id": "942a05e028f133baa8577016e7ed6384",
+    "encryption_scheme": "AES-128-CBC",
+    "key_delivery": "clear-key (simulated)",
+    "note": "In production, replace this with a Widevine/FairPlay/PlayReady license server endpoint. The AES key would be delivered via a secure key-exchange protocol, not stored on disk."
+  },
+  "watermark_id": "ff86f1b97c20c9a9",
+  "watermarked_media_path": "D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\watermarked\\watermarked_test video.mp4",
+  "fingerprint_hash": "a658277905bafb753c162344b0bbfc70d4ecc93c42fc2b4dbb5cbf45e2919d95",
+  "metadata": {
+    "owner_id": "1001",
+    "user_id": "",
+    "device_info": "",
+    "timestamp": "2026-04-28T09:50:01.180273+00:00",
+    "processing_logs": "[PIPELINE] content_id=cid_2cbb61bb7c63\n[PIPELINE] owner_id=1001\n[PIPELINE] upload_timestamp=2026-04-28T09:50:01.180273+00:00\n[PIPELINE] File saved: D:\\Sports_Media_Protection\\Layer1-2\\uploads\\cid_2cbb61bb7c63\\test video.mp4\n[DRM] Started at 2026-04-28T09:50:01.209588+00:00\n[DRM] Output folder: D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\drm\n[DRM] Generated AES-128 key  (key_id=942a05e0\u2026)\n[DRM] FFmpeg command: ffmpeg -y -i D:\\Sports_Media_Protection\\Layer1-2\\uploads\\cid_2cbb61bb7c63\\test video.mp4 -c copy -hls_time 4 -hls_list_size 0 -hls_key_info_file D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\drm\\encryption.keyinfo -hls_segment_filename D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\drm\\segment_%03d.ts D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\drm\\manifest.m3u8\n[DRM] FFmpeg completed successfully\n[DRM] FFmpeg stderr (tail): \u2026hls @ 000002414bc64700] Opening 'crypto:D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\drm\\segment_004.ts' for writing\n[hls @ 000002414bc64700] Opening 'D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\drm\\manifest.m3u8.tmp' for writing\n[out#0/hls @ 000002414bc60680] video:1854KiB audio:378KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  723 fps=0.0 q=-1.0 Lsize=N/A time=00:00:24.10 bitrate=N/A speed= 158x elapsed=0:00:00.15    \n\n[DRM] Finished at 2026-04-28T09:50:06.703856+00:00\n[PIPELINE] \u2705 DRM encryption complete\n[WM] Started at 2026-04-28T09:50:06.705321+00:00\n[WM] Payload length: 25 chars \u2192 232 bits\n[WM] Video: 360x640 @ 30.0fps, 723 frames\n[WM] Watermarked 723 / 723 frames\n[WM] Audio re-muxed successfully\n[WM] Sidecar written to D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\watermarked\\watermark_sidecar.json\n[WM] Finished at 2026-04-28T09:50:35.817739+00:00\n[PIPELINE] \u2705 Watermark embedding complete\n[FP-Video] Started at 2026-04-28T09:50:35.820883+00:00\n[FP-Video] Total frames: 723, sampling 8 frames\n[FP-Video] Composite fingerprint: a658277905bafb75\u2026\n[FP-Video] Detail written to D:\\Sports_Media_Protection\\Layer1-2\\outputs\\cid_2cbb61bb7c63\\fingerprint\\fingerprint_detail.json\n[FP-Video] Finished at 2026-04-28T09:50:36.798799+00:00\n[PIPELINE] \u2705 Fingerprint generation complete"
+  }
+}
