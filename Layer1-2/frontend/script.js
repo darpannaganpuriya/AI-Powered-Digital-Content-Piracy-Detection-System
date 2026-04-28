@@ -12,8 +12,9 @@
 */
 
 // ⚠️ DEPLOYMENT: Replace these with your actual Render backend URLs
-const API_L12 = "http://127.0.0.1:8001";
-const API_L37 = "http://127.0.0.1:8000";
+const API_L12 = "https://contentshield-backend-layer12.onrender.com";
+const API_L37 = "https://contentshield-backend-main.onrender.com";
+
 
 const $ = sel => document.querySelector(sel);
 const $$ = sel => Array.from(document.querySelectorAll(sel));
